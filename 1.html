@@ -1,0 +1,137 @@
+<!-- vscode 사용법 -->
+<!-- https://curryyou.tistory.com/262 -->
+
+<!-- TAG 사용 랭킹 페이지 https://www.advancedwebranking.com/html -->
+
+
+<!-- 검색엔진 입장에서는 아래 두 태그로 쓰여진 글 중 h3 태그로 감싸진 글이
+더 중요하다고 판단한다!
+
+<span style="font-size:24px;">
+    <strong>
+        coding
+    </strong>
+</span>
+
+<h3>
+    coding
+</h3> -->
+
+
+<!-- TAG -->
+
+<!-- 텍스트 강조 -->
+<!-- <strong></strong> : 진하게 -->
+<!-- <u></u> : 밑줄 -->
+<!-- <h1></h1> : 제목(Heading) line --> <!-- 1~6 숫자가 커질 수록 글자는 작아지고, 줄바꿈이 됨 -->
+
+<!-- 줄바꿈 -->
+<!-- <p></p> : paragraph로 문단을 의미 <p></p> ~ <p></p> 사이에 공백라인이 들어감 -->
+<!-- <br> : line break 줄바꿈할 위치에 <br> 을 추가하면 됨. p를 쓰고 css style 사용하는게 좋음 -->
+<!-- <p style="margin-top:40px;"></p> -->
+
+
+<!-- 이미지 -->
+<!-- <img src="coding.jpg" width="100%"> -->
+<!-- attribute(src, width)의 순서는 상관 없음 -->
+<!-- <img width="100%" src="coding.jpg"> -->
+
+<!-- scr: (source의 약자) -->
+<!-- https://unsplash.com/ -->
+
+
+<!-- 리스트 -->
+<!-- <li></li> : 리스트화 -->
+<!-- <ul></ul> : <li>태그는 반드시 부모 태그를 가지고 있다. -->
+<!-- 리스트를 구분하기 위해 <ul>을 사용함 -->
+<!-- <ol></ol> : <li> 태그를 <ol>로 감싸면 넘버링이 됨 -->
+<!-- ol: ordered list // ul: unordered list -->
+<!-- <ul>
+    <li>1. HTML</li>
+    <li>2. CSS</li>
+    <li>3. JavaScript</li>
+</ul>
+
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol> -->
+
+<!-- 테이블 -->
+<!-- 리스트는 2개의 태그가 세트(li-ul / li-ol) -->
+<!-- 테이블은 3개의 태그가 세트(table-tr-td) -->
+<!-- <table>
+    <tr>
+        <td>head</td>
+        <td>98.1%</td>
+    </tr>
+    <tr>
+        <td>body</td>
+        <td>97.9%</td>
+    </tr>
+    <tr>
+        <td>html</td>
+        <td>97.9%</td>
+    </tr>
+</table> -->
+
+
+<!-- body를 설명하는 태그들 -->
+<!-- <title></title> : 웹 페이지 타이틀을 수정함 "1.html" → "WEB1 - html" -->
+<!-- <meta charset="utf-8"> -->
+<!-- utf-8 로 페이지를 열때 -->
+
+<!-- 본문은 body로 묶고, body를 설명하는 태그는 head로 묶음 -->
+
+<!-- 링크 태그 -->
+<!-- <a href="링크주소" target="_blank" title="..."></a> -->
+<!-- href 다음에 오는 것은 주소 / target은 새탭에서 띄울지 바로 갈지
+    / title은 마우스오버 했을 때 표기 메세지 등 -->
+<!-- a는 anchor[닻] 의 약자 -->
+
+
+<!doctype html>
+<html>
+    <head>
+        <title>WEB1 - HTML</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1><a href="index.html">WEB</a></h1>
+        <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+
+        <h2>HTML이란 무엇인가?</h2>
+
+        <p>
+        <a href="https://html.spec.whatwg.org/multipage/" target="_blank"
+        title="html5 specification"> Hypertext Markup Language (HTML)</a>
+        is the standard markup
+        language for <strong>creating <u>web</u> pages</strong>
+        and web applications.
+
+        Web browsers receive HTML documents from a web server or from
+        loacl storage and render them into multimedia web pages.
+
+        HTML describes the structure of a web page semantically and originally
+        included cues for appearance of the document.
+        </p>
+
+        <img src="coding.jpg" width="100%">
+
+        <p style="margin-top:40px;">
+        HTML elements are the building blocks of HTML pages. With HTML
+        constructs, images and other objects, such as interactive forms,
+        may be embedded into the rendered page. It provides a means to create
+        structured documents by denoting structural semantics for text such as
+        headings, paragraphs, lists, links, quotes and other items.
+
+        HTML elements are delineated by tags, written using angle brackets.
+        </p>
+    </body>
+</html>
